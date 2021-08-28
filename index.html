@@ -315,6 +315,7 @@ position: absolute;
 	left: 768px;
 	top: 65px;
 width: 150px;
+height: 1500px;
 overflow-x:hidden;
 z-index:0;
 }
@@ -339,14 +340,6 @@ overflow-x:hidden;
 z-index:0;
 }
 
-@media screen and (max-width: 1000px) and (orientation: portrait){
-#everything { zoom: 200%; left:-5px; top: 80px; overflow: auto; overflow: scroll; }
-}
-
-@media screen and (max-width: 1000px) and (orientation: landscape){
-#everything { zoom: 90%; left:250px; top: -10px; overflow: auto; overflow: scroll; }
-}
-
 </style>
 
 <style>
@@ -367,6 +360,21 @@ src: url('tinyfontss.ttf') format('truetype');
 </head>
 
 <body ondragstart="return false" onkeydown="return false" oncontextmenu="return false" style="background-image:url(./img/bg.png); background-color:#fefbfb; background-repeat: repeat; font-family: 'Pixel Maz'; font-size: 16px; letter-spacing:1px; color:#bfacad;">
+
+<style>
+html {
+    -webkit-text-size-adjust: 100%;
+    text-size-adjust: 100%;
+}
+@media screen and (max-width: 1000px) and (orientation: portrait){
+#everything { position: relative; zoom: 120%; left:-215px; top:10px; }
+}
+@media screen and (max-width: 1000px) and (orientation: landscape){
+#everything { position: relative; zoom: 120%; left:-220px; top:10px; }
+}
+</style>
+
+<div id="everything">
 
 <a href="https://middlepot.com/about" target="_blank">
 <img style="position: absolute;
