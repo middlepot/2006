@@ -2,4 +2,4 @@
   \
  ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌꒰ ‌ 𝑚𝑦 𝑓𝑖𝑟𝑠𝑡 𝑏𝑙𝑜𝑔 : ‌ 2006.pooftie.me ‌ ꒱\
   \
-<img width="400" height="230" src="https://middlepot.com/img/kawaii.jpg">
+<a href="https://2006.pooftie.me"><img width="400" height="250" src="https://middlepot.com/img/kawaii.jpg"></a>
